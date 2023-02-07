@@ -1,0 +1,23 @@
+body {
+    background-color: #0b0711;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100vh;
+
+}
+
+img {
+    width: auto;
+    height: 10%;
+
+
+    align-self: center;
+}
