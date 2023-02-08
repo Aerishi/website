@@ -1,23 +1,100 @@
+html {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(./fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url(./fonts/Poppins-Light.ttf);
+}
+
 body {
     background-color: #0b0711;
 }
 
-div {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
+h1 {
+    font-size: 4rem;
+    margin-top: 5px;
+    color: aliceblue;
+    font-family: Poppins-Light;
+    margin-bottom: 0;
+}
+
+.intro>p {
+    margin: 0 0 70px 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 .wrapper {
-    height: 100vh;
-
+    display: flex;
+    height: 95vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
-img {
-    width: auto;
-    height: 10%;
+p {
+    color: aliceblue;
+    font-family: Poppins-Medium;
+}
 
 
-    align-self: center;
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+
+.items:not(.intro) {
+    border-radius: 10px;
+    height: 53px;
+}
+
+.items>a {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+a>p {
+    font-size: 1.8rem;
+}
+
+.btn-twit {
+    background-color: #1d9bf0;
+}
+
+.btn-insta {
+    background: linear-gradient(90deg, rgba(252, 176, 69, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(131, 58, 180, 1) 100%);
+}
+
+.btn-mastodon {
+    background-color: #615cf6;
+}
+
+.btn-pex {
+    background-color: #07a081;
+}
+
+.btn-fb {
+    background-color: #1877F2;
+}
+
+.btn-steam {
+    background-color: #231f20;
 }
