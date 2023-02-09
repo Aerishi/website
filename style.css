@@ -26,6 +26,7 @@ h1 {
 
 .intro>p {
     margin: 0 0 70px 0;
+    font-family: Poppins-Light;
 }
 
 a {
@@ -38,7 +39,8 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 17px;
+    margin-top: 70px;
 }
 
 p {
@@ -76,6 +78,8 @@ a>p {
     font-size: 1.8rem;
 }
 
+
+
 .btn-twit {
     background-color: #1d9bf0;
 }
@@ -98,4 +102,25 @@ a>p {
 
 .btn-steam {
     background-color: #231f20;
+}
+
+.btn-git {
+    background-color: #171515;
+    border: 0.5px solid rgb(46, 46, 46);
+}
+
+.btn-spotify {
+    background-color: #1ed760;
+}
+
+.btn-mail {
+    background-color: #f5f0f1;
+}
+
+.btn-mail>a>p {
+    color: #000000;
+}
+
+.btn:hover {
+    filter: brightness(90%);
 }
